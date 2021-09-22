@@ -1,0 +1,27 @@
+{
+  "name": "bounty-hunter-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node --es-module-specifier-resolution=node app.js",
+    "nodemon": "nodemon --es-module-specifier-resolution=node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradripple/bounty-hunter-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradripple/bounty-hunter-api/issues"
+  },
+  "homepage": "https://github.com/bradripple/bounty-hunter-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mogoose": "^0.0.1-security"
+  },
+  "type": "module"
+}
